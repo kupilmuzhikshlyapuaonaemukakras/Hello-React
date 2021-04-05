@@ -1,8 +1,9 @@
 import React from "react"
 import MenuBar from "./menu/Menu"
+import PersonalArea from "./personal_area/personal_area"
 import "./Navigation.css"
 
-interface MenuButton {
+export interface MenuButton {
     id: number;
     title: string;
     ref: string;
@@ -18,6 +19,7 @@ export default function Navigation() {
   return (
     <nav className="Navigation">
         <MenuBar menuButtons={menuButtons}/>
+        <PersonalArea />
     </nav>
   );
 }
