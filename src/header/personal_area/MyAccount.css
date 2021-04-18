@@ -1,0 +1,6 @@
+.MyAccountButton {
+    display: flex;
+    justify-self: right;
+    padding: 0;
+    color: white;
+}

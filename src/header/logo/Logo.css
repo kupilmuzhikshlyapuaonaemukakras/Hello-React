@@ -1,0 +1,15 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2em;
+    padding-left: 2em;
+    justify-self: left;
+}
+
+.logo_link {
+    font-family: 'Permanent Marker', cursive;
+    font-size: calc(45px + 2vmin);
+    text-decoration: none;
+    color: white;
+}

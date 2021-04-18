@@ -1,0 +1,26 @@
+.Menu {
+    height: 100%;
+    font-size: calc(10px + 2vmin);
+    display: flex;
+}
+
+.Menu ul {
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.Menu a {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2vmin;
+    text-decoration: none;
+    color: white;
+}
+
+ .Menu a:hover {background:  #700000}
+  

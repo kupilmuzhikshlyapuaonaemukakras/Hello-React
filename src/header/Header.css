@@ -1,0 +1,21 @@
+.header {
+    position: absolute;
+    width: 100vh;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.container {
+    display: flex;
+    font-weight: 700;
+    background-color: rgb(224, 19, 19);
+}
+
+.space_between {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+

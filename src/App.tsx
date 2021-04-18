@@ -3,18 +3,18 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Navigation from "./navigation/Navigation"
-import Home from "./home/home"
-import Work from "./work/work"
-import Dungeon from "./dungeon/dungeon"
-import Important from "./important/important"
+import Header from "./header/Header"
+import Home from "./header/navigation/menu/home/home"
+import Work from "./header/navigation/menu/work/work"
+import Dungeon from "./header/navigation/menu/dungeon/dungeon"
+import Important from "./header/navigation/menu/important/important"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
     <Router>
-      <Navigation />
+      <Header />
       <Switch>
           <Route path="/work">
             <Work />

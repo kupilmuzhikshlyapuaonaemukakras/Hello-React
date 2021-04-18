@@ -1,0 +1,16 @@
+.Home {
+  background: url("./home.jpeg") center no-repeat;
+  background-size: cover;
+}
+
+.Home h1{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    height: 100vh;
+    color: white;
+  }
